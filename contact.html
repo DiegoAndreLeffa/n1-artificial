@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Empresa Fictícia</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+    <title>Artificial - Contato</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <img src="images/logo.png" alt="Logotipo da Empresa">
-        <h1>Fale Conosco</h1>
+      <img src="./logotipo1.png" alt="Logotipo da Empresa" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Sobre Nós</a></li>
+          <li><a href="services.html">Serviços</a></li>
+          <li><a href="products.html">Produtos</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">Sobre Nós</a>
-        <a href="services.html">Serviços</a>
-        <a href="products.html">Produtos</a>
-        <a href="contact.html">Contato</a>
-    </nav>
-    <div class="container">
-        <h2>Entre em Contato</h2>
+    <main>
+      <section class="containerContact">
+        <h1>Fale Conosco</h1>
         <form action="#" method="post">
+          <div>
             <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
-
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Nome"
+            />
+          </div>
+          <div>
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="E-mail"
+            />
+          </div>
+          <div>
             <label for="subject">Assunto:</label>
-            <input type="text" id="subject" name="subject" required>
-
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              placeholder="Assunto"
+            />
+          </div>
+          <div>
             <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Enviar</button>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Mensagem"
+            ></textarea>
+          </div>
+          <button type="submit">Enviar</button>
         </form>
-    </div>
+      </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Empresa Fictícia - Todos os direitos reservados</p>
+      <p>&copy; 2024 Empresa Artificial - Todos os direitos reservados</p>
     </footer>
-</body>
+  </body>
 </html>
